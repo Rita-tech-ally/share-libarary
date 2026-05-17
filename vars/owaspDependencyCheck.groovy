@@ -1,3 +1,3 @@
 def call() {
-    sh 'mvn dependency-check:check || true'
+    sh 'mvn dependency-check:check'
 }
